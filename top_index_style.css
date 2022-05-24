@@ -1,0 +1,458 @@
+.top_index{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+    /*min-height: 100vh;*/
+    /*background: linear-gradient(black,darkslategrey);*/
+    background: black;
+    
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    scroll-snap-stop: normal;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.top_index>.name>.name_text{
+    color: white;
+    transition: font-size 0.5s ;
+}
+
+.nav-links{
+    display: flex
+}
+.top_index>.nav-links> div {
+    
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform:  uppercase;
+    height: 22px;
+    border-bottom: 1px;
+    transition: border-bottom 0.5s;
+    
+    
+
+
+}
+.nav-links a{
+    color: cyan;
+    text-decoration: none;
+    transition: color 0.5s;
+
+}
+.top_index>.nav-links>.link_about:hover {
+    border-bottom: 0.5px solid lightseagreen;
+    
+}
+
+.top_index>.nav-links>.link_exp:hover {
+    border-bottom: 0.5px solid lightseagreen;
+    
+}
+.top_index>.nav-links>.link_education:hover {
+    border-bottom: 0.5px solid lightseagreen;
+    
+}
+.top_index>.nav-links>.link_contact:hover {
+    border-bottom: 0.5px solid lightseagreen;
+    
+}
+.top_index>.name>.name_text:hover{
+    font-size: 1.5em;
+}
+.nav-links a:hover{
+    color: lightseagreen;
+}
+
+.parallax_scene{
+    position: relative;
+    width: 100%;
+    
+    padding-top: 500px;
+    padding-left: 100px;
+    
+}
+
+
+.parallax_scene>div>img{
+    position: absolute;
+    top: 0;
+    left:0;
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.parallax_scene>img{
+    position: absolute;
+    top: 0;
+    left:0;
+    object-fit: cover;
+
+}
+.parallax_scene>div>h2{
+    position: absolute;
+    top: 0;
+    left:0;
+    object-fit: cover
+
+}
+
+
+
+.wolf>img{
+    margin-top: 150px;
+}
+
+
+.information> section{
+    position: relative;
+    background-color: black;
+    z-index: 4;
+    width: 100%;
+    height: auto;
+    overflow-x: auto;
+    overflow-y: auto;
+    margin-bottom: 10%;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+#black_section::-webkit-scrollbar{
+    display: none;
+    scroll-behavior: smooth;
+}
+    
+    
+
+
+.stars_div>img{
+    z-index: 1;
+}
+
+
+.text>h2{
+    margin-top: 120px;
+    position: absolute;
+    left: -500px;
+    color: darkcyan;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-size: 4vw;
+    z-index: 2;
+    
+    
+
+}
+.mountain_back>img{
+    z-index: 3;
+}
+.mountain_front>img{
+    z-index: 3;
+}
+.parallax3>img{
+    z-index: 3;
+}
+.parallax2>img{
+    z-index: 3;
+}
+.wolf>img{
+    z-index: 3;
+}
+#balck_section>section{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#about{
+    position: static;
+    background-color: black;
+    height: 500px;
+    width: 1275px;
+    z-index: 5;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 15%;
+    
+}
+#experience{
+    position: static;
+    background-color: black;
+    height: 500px;
+    width: 1200px;
+    z-index: 5;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding: 38px;
+    
+
+}
+
+#education{
+    position: static;
+    background-color: black;
+    height: 500px;
+    width: 1200px;
+    z-index: 5;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding: 38px;
+
+}
+#contact{
+    position: static;
+    background-color: black;
+    height: auto;
+    width: 500px;
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-top: 10%;
+    transform: translate(77%, 50%);
+    
+
+}
+
+#blur{
+    position: absolute;
+}
+#profile_photo{
+    position: relative;
+    left: 0;
+    top: 0;
+    transition: opacity 1s;
+}
+#Hello>span{
+    position: relative;
+    color: aliceblue;
+    font-size: 4em;
+    
+    transition: color 0.2s;
+    
+}
+#Hello>span:hover{
+    
+    color: black;
+}
+#profile_photo:hover{
+    opacity: 0;
+}
+#text_about{
+    margin-left: 5px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 38px;
+    
+    
+}
+#about_info{
+    position: relative;
+    color: aliceblue;
+    text-align: justify;
+    font-size: 1.2em;
+    transition: color 0.2s;
+    
+}
+#about_info>p>span:hover{
+    color: black;
+}
+#pa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 5%;
+    position: relative;
+    background-color: #e5e4e2;
+    width: 25%;
+    transition: background-color 0.5s;
+    
+}
+#spartahack{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 5%;
+    position: relative;
+    background-color: #e5e4e2;
+    width: 25%;
+    transition: background-color 0.5s;
+}
+#nus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 5%;
+    position: relative;
+    background-color: #e5e4e2;
+    width: 25%;
+    transition: background-color 0.5s;
+}
+#experience>section>img{
+    width: 50%;
+    height: 30%;
+    align-self: center;
+    
+}
+#experience>section>div{
+    align-self: center;
+    font-size: 1.2em;
+    transition: color 0.2s;
+
+
+}
+.desc_pa{
+    margin-top: 5%;
+    color: darkcyan;
+}
+.desc_sh{
+    color: darkcyan;
+}
+.desc_nus{
+    color: darkcyan;
+}
+#msu{
+    margin-top: 3%;
+}
+#experience>section>p>span{
+    transition: color 0.2s;
+    transition: font-size 0.2s;
+}
+#experience>section>p>span:hover{
+    color: darkcyan;
+    font-size: 2em;
+}
+#experience>section>div:hover{
+    color: #e5e4e2;
+}
+#pa:hover{
+    background-color: #e5e4e2;
+}
+#spartahack:hover{
+    background-color: #e5e4e2;
+}
+#nus:hover{
+    background-color:#e5e4e2;
+}
+#msu_edu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 22%;
+    position: relative;
+    background-color: #e5e4e2;
+    width: 25%;
+    transition: background-color 0.5s;
+
+}
+
+#internshala{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 5%;
+    position: relative;
+    background-color: #e5e4e2;
+    width: 25%;
+    transition: background-color 0.5s;
+
+}
+#education>section>img{
+    width: 50%;
+    height: 30%;
+    align-self: center;
+}
+#education>section>div{
+    align-self: center;
+    font-size: 1.2em;
+    transition: color 0.2s;
+}
+#education>section>p>span{
+    transition: color 0.2s;
+    transition: font-size 0.2s;
+
+}
+.desc_ectf{
+    color: darkcyan;
+    margin-top: 5%;
+}
+.desc_is{
+    color: darkcyan;
+    margin-top: 5%;
+}
+#education>section>p>span:hover{
+    color: darkcyan;
+    font-size: 2em;
+
+}
+#education>section>div:hover{
+    color: #e5e4e2;
+
+}
+#contact>div{
+    position: relative;
+    height:30px;
+    width: 30px;
+    
+    align-self: center;
+    
+    
+    
+
+}
+
+#linked_in{
+    
+    position: absolute;
+    height:100%;
+    width: 100%;
+    align-self: center;
+}
+#discord{
+    
+    position: absolute;
+    height:100%;
+    width: 100%;
+    align-self: center;
+}
+#git_hub{
+    
+    position: absolute;
+    height:100%;
+    width: 100%;
+    align-self: center;
+}
+#email{
+    
+    position: absolute;
+    height:100%;
+    width: 100%;
+    align-self: center;
+}
+
+
+
+
+
+
+
