@@ -223,6 +223,7 @@ body::-webkit-scrollbar{
     margin-left: 10%;
     margin-top: 10%;
     transform: translate(77%, 50%);
+    margin-bottom: 50px;
     
 
 }
@@ -448,6 +449,10 @@ body::-webkit-scrollbar{
     height:100%;
     width: 100%;
     align-self: center;
+}
+.information>section{
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 
