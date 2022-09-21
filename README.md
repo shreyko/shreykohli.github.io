@@ -5,5 +5,6 @@ I am working on a second iteration as you read this using React JS and spline to
 Hopefully the next iteration will solve all the issues with this one.
 Expected rollout of portfolio2.0 is SEP 2022
 
--- Update the next version of the website is up and running and can be viewed on :
+##Update:
+The next version of the website is up and running and can be viewed on :
 https://shreyko.github.io/shreyko/
