@@ -4,3 +4,6 @@ I have tried to make it interactive with parallax effects, reaction to mouse inp
 I am working on a second iteration as you read this using React JS and spline to offer responsiveness and 3D animations.
 Hopefully the next iteration will solve all the issues with this one.
 Expected rollout of portfolio2.0 is SEP 2022
+
+-- Update the next version of the website is up and running and can be viewed on :
+https://shreyko.github.io/shreyko/
